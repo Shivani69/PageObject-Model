@@ -49,7 +49,7 @@ public class ContactsPageTest extends TestBase {
 	@Test(priority =3)
 	public void selectMultipleContactsTest(){
 		contactsPage.selectContactsByName("Ajay deshmukh");
-		contactsPage.selectContactsByName("ABC STU");
+		contactsPage.selectContactsByName("Ajinkya Hiwale");
 	}
 	@DataProvider
 	public Object[][] getCRMTestData(){
