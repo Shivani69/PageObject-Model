@@ -44,12 +44,12 @@ public class ContactsPageTest extends TestBase {
 	}
 	@Test(priority =2)
 	public void selectSingleContactsTest(){
-		contactsPage.selectContactsByName("Ajinkya Hiwale");
+		contactsPage.selectContactsByName("Frahana Khan");
 	}
 	@Test(priority =3)
 	public void selectMultipleContactsTest(){
-		contactsPage.selectContactsByName("Ajay deshmukh");
-		contactsPage.selectContactsByName("Ajinkya Hiwale");
+		contactsPage.selectContactsByName("Frahana Khan");
+		contactsPage.selectContactsByName("Frank Cheng");
 	}
 	@DataProvider
 	public Object[][] getCRMTestData(){
